@@ -13,6 +13,9 @@ const Home = () => {
                 <Link to="/air-quality">
                     <button className="home-button">Predict Air Quality Impact</button>
                 </Link>
+                <Link to="/grade">
+                    <button className="home-button">Predict Score</button>
+                </Link>
             </div>
         </div>
     );
