@@ -31,18 +31,21 @@ const GradeForm = () => {
             <form onSubmit={handleSubmit}>
                 <input
                     type="number"
+                    name="10%"
                     placeholder="10%"
                     value={inputData['10%']}
                     onChange={handleChange}
                 />
                 <input
                     type="number"
+                    name="20%_1"
                     placeholder="20%_1"
                     value={inputData['20%_1']}
                     onChange={handleChange}
                 />
                 <input
                     type="number"
+                    name="20%_2"
                     placeholder="20%_2"
                     value={inputData['20%_2']}
                     onChange={handleChange}
